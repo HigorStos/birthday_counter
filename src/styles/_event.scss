@@ -1,7 +1,7 @@
 @use 'variables';
 
 .event {
-    padding: 80px 0;
+    padding: 80px;
     
     &--sec1 {
         background-image: linear-gradient(variables.$gold2, variables.$orange1);
@@ -62,5 +62,9 @@
             margin-right: 0;
             margin-bottom: 16px;
         }
+    }
+
+    @media (max-width: 1023px) {
+        padding: 80px 40px;
     }
 }
