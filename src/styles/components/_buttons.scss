@@ -12,4 +12,8 @@
         color: variables.$textColor;
         background-color: variables.$gold2;
     }
+
+    @media (max-width: 640px) {
+        width: 100%;
+    }
 }
